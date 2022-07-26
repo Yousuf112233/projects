@@ -19,17 +19,6 @@ h2{
 .jam img{
     width:80%;
 }
-.half-width{
-    width:40%;
-}
-.hlaf-width{
-    width: 40%;
-    float:left;
-    margin-left:5%;
-    padding-left:3%;
-
-}
-
 .top-banner{
     
     background-image: url("imges/top-banner.png");
@@ -37,15 +26,34 @@ h2{
 }
 section{
     height:500px;
-    padding-bottom: 150px;
+    padding-bottom: 50px;
 }
 .link-baton{
     text-decoration: none;
-  background-image:linear-gradient(45deg lightsalmon tomato); 
-  background-color: orange;
+  background:linear-gradient(45deg lightsalmon tomato); 
+  background-color:orange;
     padding: 10px 20px;
     border-radius :5px;
     color:white;
     font-weight: 700;
 
+}
+.drem-area{
+    background-image: url("imges/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.khola{
+    box-shadow: 10px 10px 40px rgb(128, 128, 128);
+    border-radius: 20px;
+    height: 50%;
+    padding: 5px;
+} 
+.experience-area{
+    background-image: url("imges/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#Baby Web{
+    border-radius: 7px solid green;
 }
